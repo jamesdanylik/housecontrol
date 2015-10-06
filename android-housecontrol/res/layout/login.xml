@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    >
+    <TextView
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:gravity="center"
+    	android:text="Hestia"
+    	android:textSize="40sp"
+    	/>
+    <LinearLayout android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal">
+    	<EditText android:id="@+id/editTextAddress" 
+    		android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="1"
+        	android:hint="Address" />
+    	<EditText android:id="@+id/editTextPort"
+    		android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="4"
+            android:inputType="numberDecimal"
+        	android:hint="Port"/>
+		</LinearLayout>
+	<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:orientation="horizontal" >
+    	<Button android:id="@+id/btnClear"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="1"
+        	android:text="Clear" />
+    	<Button android:id="@+id/btnConnect"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="1"
+        	android:text="Connect" />
+		</LinearLayout>
+	<TextView
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:gravity="center"
+    	android:text="Bomb Ass Apps © 2014"
+    	/>
+</LinearLayout>
+

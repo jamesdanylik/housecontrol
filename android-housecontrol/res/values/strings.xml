@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hestia</string>
+    <string-array name="relay_lights_array">
+        <item>Light #0</item>
+        <item>Light #1</item>
+        <item>Light #2</item>
+        <item>Light #3</item>
+        <item>Light #4</item>
+        <item>Light #5</item>
+        <item>Light #6</item>
+        <item>Light #7</item>
+    </string-array>
+    <string name="checkstring">Remote?</string>
+
+</resources>

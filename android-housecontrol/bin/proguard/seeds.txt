@@ -1,0 +1,4 @@
+com.jamesdanylik.hestia.HestiaLoginActivity
+com.jamesdanylik.hestia.HestiaLoginActivity: HestiaLoginActivity()
+com.jamesdanylik.hestia.HestiaMainActivity
+com.jamesdanylik.hestia.HestiaMainActivity: HestiaMainActivity()

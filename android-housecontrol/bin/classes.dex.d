@@ -1,0 +1,24 @@
+/home/james/wrk/android-housecontrol/bin/classes.dex : \
+/home/james/wrk/android-housecontrol/bin/classes/com/jamesdanylik/hestia/R$string.class \
+/home/james/wrk/android-housecontrol/bin/classes/com/jamesdanylik/hestia/HestiaMainActivity$6.class \
+/home/james/wrk/android-housecontrol/bin/classes/com/jamesdanylik/hestia/HestiaMainActivity$10.class \
+/home/james/wrk/android-housecontrol/bin/classes/com/jamesdanylik/hestia/HestiaMainActivity.class \
+/home/james/wrk/android-housecontrol/bin/classes/com/jamesdanylik/hestia/HestiaMainActivity$5.class \
+/home/james/wrk/android-housecontrol/bin/classes/com/jamesdanylik/hestia/HestiaMainActivity$1.class \
+/home/james/wrk/android-housecontrol/bin/classes/com/jamesdanylik/hestia/R$layout.class \
+/home/james/wrk/android-housecontrol/bin/classes/com/jamesdanylik/hestia/HestiaMainActivity$7.class \
+/home/james/wrk/android-housecontrol/bin/classes/com/jamesdanylik/hestia/R$drawable.class \
+/home/james/wrk/android-housecontrol/bin/classes/com/jamesdanylik/hestia/HestiaMainActivity$3.class \
+/home/james/wrk/android-housecontrol/bin/classes/com/jamesdanylik/hestia/HestiaMainActivity$2.class \
+/home/james/wrk/android-housecontrol/bin/classes/com/jamesdanylik/hestia/HestiaMainActivity$4.class \
+/home/james/wrk/android-housecontrol/bin/classes/com/jamesdanylik/hestia/R$id.class \
+/home/james/wrk/android-housecontrol/bin/classes/com/jamesdanylik/hestia/HestiaMainActivity$8.class \
+/home/james/wrk/android-housecontrol/bin/classes/com/jamesdanylik/hestia/R$array.class \
+/home/james/wrk/android-housecontrol/bin/classes/com/jamesdanylik/hestia/HestiaLoginActivity$2.class \
+/home/james/wrk/android-housecontrol/bin/classes/com/jamesdanylik/hestia/BuildConfig.class \
+/home/james/wrk/android-housecontrol/bin/classes/com/jamesdanylik/hestia/HestiaLoginActivity.class \
+/home/james/wrk/android-housecontrol/bin/classes/com/jamesdanylik/hestia/R.class \
+/home/james/wrk/android-housecontrol/bin/classes/com/jamesdanylik/hestia/R$attr.class \
+/home/james/wrk/android-housecontrol/bin/classes/com/jamesdanylik/hestia/HestiaLoginActivity$1.class \
+/home/james/wrk/android-housecontrol/bin/classes/com/jamesdanylik/hestia/HestiaMainActivity$9.class \
+/home/james/wrk/android-housecontrol/bin/dexedLibs/commons-net-8da3329da5d4b446259c8c77014a4c05.jar \

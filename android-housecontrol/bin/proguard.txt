@@ -1,0 +1,6 @@
+# view AndroidManifest.xml #generated:22
+-keep class com.jamesdanylik.hestia.HestiaLoginActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:14
+-keep class com.jamesdanylik.hestia.HestiaMainActivity { <init>(...); }
+

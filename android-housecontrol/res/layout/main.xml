@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#f4f4f4" >
+
+	<Button android:id="@+id/btnRefresh"
+       	android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Refresh All Devices" />
+ 
+    <TextView
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="ZigBee Lights"
+    	android:textSize="20sp"
+    	/>
+
+   	<TextView
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:gravity="center"
+    	android:id="@+id/textViewLightState"
+    	android:text="Device State Here"
+    	android:textSize="10sp"
+    	/>
+
+    <LinearLayout android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal">
+
+    	<Spinner
+    		android:id="@+id/spinLight"
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:layout_weight="1" />
+
+    	<Button android:id="@+id/btnToggleLight"
+       		android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:text="Toggle Light"
+        	android:layout_weight="1" />
+
+        <CheckBox android:id="@+id/checkboxDevice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/checkstring"/>
+		</LinearLayout>
+
+	<Button android:id="@+id/btnToggleShow"
+       	android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Toggle Auto Lightshow" />
+
+	<Button android:id="@+id/btnToggleAll"
+       	android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Toggle All Lights" />
+
+    <TextView
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="ZigBee Motor"
+    	android:textSize="20sp"
+    	/>
+
+    <TextView
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:id="@+id/textViewMotorState"
+    	android:text="ZigBee Motor State Here"
+    	android:gravity="center"
+    	android:textSize="10sp"
+    	/>
+
+    <LinearLayout android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal">
+
+    	<Button android:id="@+id/btnToggleOsc"
+       		android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:text="Toggle Osc."
+        	android:layout_weight="1" />
+
+        <Button android:id="@+id/btnToggleMotor"
+       		android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:text="Toggle Motor"
+        	android:layout_weight="1" />
+
+        <Button android:id="@+id/btnToggleDir"
+       		android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:text="Toggle Dir"
+        	android:layout_weight="1" />
+
+        <Button android:id="@+id/btnResetMotor"
+       		android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:text="Reset Pos"
+        	android:layout_weight="1" />
+
+		</LinearLayout>
+
+		<Button android:id="@+id/btnActMotor"
+       		android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:text="Actuate Motor" />
+
+</LinearLayout>

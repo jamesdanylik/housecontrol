@@ -1,0 +1,201 @@
+com.jamesdanylik.hestia.HestiaLoginActivity -> com.jamesdanylik.hestia.HestiaLoginActivity:
+    android.widget.EditText editTextAddress -> a
+    android.widget.EditText editTextPort -> b
+    java.lang.String address -> c
+    java.lang.String port -> d
+    android.widget.Button btnConnect -> e
+    android.widget.Button btnClear -> f
+    void onCreate(android.os.Bundle) -> onCreate
+    void onStop() -> onStop
+    java.lang.String access$002(com.jamesdanylik.hestia.HestiaLoginActivity,java.lang.String) -> a
+    java.lang.String access$102(com.jamesdanylik.hestia.HestiaLoginActivity,java.lang.String) -> b
+    java.lang.String access$000(com.jamesdanylik.hestia.HestiaLoginActivity) -> a
+    java.lang.String access$100(com.jamesdanylik.hestia.HestiaLoginActivity) -> b
+com.jamesdanylik.hestia.HestiaLoginActivity$1 -> com.jamesdanylik.hestia.a:
+    com.jamesdanylik.hestia.HestiaLoginActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.jamesdanylik.hestia.HestiaLoginActivity$2 -> com.jamesdanylik.hestia.b:
+    com.jamesdanylik.hestia.HestiaLoginActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.jamesdanylik.hestia.HestiaMainActivity -> com.jamesdanylik.hestia.HestiaMainActivity:
+    java.lang.String address -> f
+    int port -> g
+    org.apache.commons.net.telnet.TelnetClient telnet -> h
+    java.lang.Boolean connected -> i
+    java.io.InputStream tcIn -> j
+    java.io.PrintStream tcOut -> k
+    android.widget.TextView textViewLightState -> a
+    android.widget.TextView textViewMotorState -> b
+    android.widget.Button btnRefresh -> l
+    android.widget.Button btnToggleLight -> m
+    android.widget.Button btnToggleShow -> n
+    android.widget.Button btnToggleAll -> o
+    android.widget.Button btnToggleOsc -> p
+    android.widget.Button btnToggleMotor -> q
+    android.widget.Button btnToggleDir -> r
+    android.widget.Button btnResetMotor -> s
+    android.widget.Button btnActMotor -> t
+    android.widget.Spinner spinLight -> c
+    java.lang.String spinLightSelected -> d
+    android.widget.CheckBox checkboxDevice -> e
+    void onCreate(android.os.Bundle) -> onCreate
+    void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+    void restartActivity() -> a
+    void sendCommand(java.lang.String) -> a
+    void onStop() -> onStop
+    void onPause() -> onPause
+    void onResume() -> onResume
+    void onRestart() -> onRestart
+    java.lang.String readUntil(java.lang.String) -> b
+com.jamesdanylik.hestia.HestiaMainActivity$1 -> com.jamesdanylik.hestia.c:
+    com.jamesdanylik.hestia.HestiaMainActivity this$0 -> a
+    void onItemSelected(android.widget.AdapterView,android.view.View,int,long) -> onItemSelected
+    void onNothingSelected(android.widget.AdapterView) -> onNothingSelected
+com.jamesdanylik.hestia.HestiaMainActivity$10 -> com.jamesdanylik.hestia.d:
+    com.jamesdanylik.hestia.HestiaMainActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.jamesdanylik.hestia.HestiaMainActivity$2 -> com.jamesdanylik.hestia.e:
+    com.jamesdanylik.hestia.HestiaMainActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.jamesdanylik.hestia.HestiaMainActivity$3 -> com.jamesdanylik.hestia.f:
+    com.jamesdanylik.hestia.HestiaMainActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.jamesdanylik.hestia.HestiaMainActivity$4 -> com.jamesdanylik.hestia.g:
+    com.jamesdanylik.hestia.HestiaMainActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.jamesdanylik.hestia.HestiaMainActivity$5 -> com.jamesdanylik.hestia.h:
+    com.jamesdanylik.hestia.HestiaMainActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.jamesdanylik.hestia.HestiaMainActivity$6 -> com.jamesdanylik.hestia.i:
+    com.jamesdanylik.hestia.HestiaMainActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.jamesdanylik.hestia.HestiaMainActivity$7 -> com.jamesdanylik.hestia.j:
+    com.jamesdanylik.hestia.HestiaMainActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.jamesdanylik.hestia.HestiaMainActivity$8 -> com.jamesdanylik.hestia.k:
+    com.jamesdanylik.hestia.HestiaMainActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.jamesdanylik.hestia.HestiaMainActivity$9 -> com.jamesdanylik.hestia.l:
+    com.jamesdanylik.hestia.HestiaMainActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+org.apache.commons.net.SocketClient -> a.a.a.a.a:
+    org.apache.commons.net.SocketFactory __DEFAULT_SOCKET_FACTORY -> c
+    int _timeout_ -> d
+    java.net.Socket _socket_ -> e
+    java.io.InputStream _input_ -> a
+    java.io.OutputStream _output_ -> b
+    org.apache.commons.net.SocketFactory _socketFactory_ -> f
+    void _connectAction_() -> a
+    void connect(java.lang.String,int) -> a
+    void disconnect() -> b
+org.apache.commons.net.SocketFactory -> a.a.a.a.b:
+    java.net.Socket createSocket(java.lang.String,int) -> a
+org.apache.commons.net.io.FromNetASCIIInputStream -> a.a.a.a.a.a:
+    boolean _noConversionRequired -> a
+    java.lang.String _lineSeparator -> b
+    byte[] _lineSeparatorBytes -> c
+    int __length -> d
+    boolean isConversionRequired() -> a
+    int __read() -> b
+    int read() -> read
+    int read(byte[]) -> read
+    int read(byte[],int,int) -> read
+    int available() -> available
+org.apache.commons.net.io.ToNetASCIIOutputStream -> a.a.a.a.a.b:
+    boolean __lastWasCR -> a
+    void write(int) -> write
+    void write(byte[]) -> write
+    void write(byte[],int,int) -> write
+org.apache.commons.net.telnet.Telnet -> a.a.a.a.b.a:
+    byte[] _COMMAND_DO -> c
+    byte[] _COMMAND_DONT -> d
+    byte[] _COMMAND_WILL -> e
+    byte[] _COMMAND_WONT -> f
+    byte[] _COMMAND_SB -> g
+    byte[] _COMMAND_SE -> h
+    int[] _doResponse -> i
+    int[] _willResponse -> j
+    int[] _options -> k
+    byte[] _COMMAND_IS -> l
+    java.lang.String terminalType -> m
+    org.apache.commons.net.telnet.TelnetOptionHandler[] optionHandlers -> n
+    java.lang.Object aytMonitor -> o
+    boolean aytFlag -> p
+    java.io.OutputStream spyStream -> q
+    org.apache.commons.net.telnet.TelnetNotificationHandler __notifhand -> r
+    boolean _stateIsWill(int) -> i
+    boolean _stateIsDo(int) -> j
+    boolean _requestedWill(int) -> k
+    boolean _requestedWont(int) -> a
+    boolean _requestedDo(int) -> l
+    boolean _requestedDont(int) -> b
+    void _setWantWill(int) -> m
+    void _setWantDo(int) -> n
+    void _processDo(int) -> c
+    void _processDont(int) -> d
+    void _processWill(int) -> e
+    void _processWont(int) -> f
+    void _processSuboption(int[],int) -> a
+    void _sendTerminalType() -> d
+    void _sendSubnegotiation(int[]) -> a
+    void _processAYTResponse() -> c
+    void _connectAction_() -> a
+    void _sendDo(int) -> o
+    void _sendDont(int) -> p
+    void _sendWill(int) -> q
+    void _sendWont(int) -> r
+    void _sendByte(int) -> g
+    void _spyRead(int) -> h
+org.apache.commons.net.telnet.TelnetClient -> a.a.a.a.b.b:
+    java.io.InputStream __input -> c
+    java.io.OutputStream __output -> d
+    boolean readerThread -> e
+    void _flushOutputStream() -> d
+    void _closeOutputStream() -> e
+    void _connectAction_() -> a
+    void disconnect() -> b
+    java.io.OutputStream getOutputStream() -> f
+    java.io.InputStream getInputStream() -> g
+org.apache.commons.net.telnet.TelnetInputStream -> a.a.a.a.b.c:
+    boolean __hasReachedEOF -> a
+    boolean __isClosed -> b
+    boolean __readIsWaiting -> c
+    int __receiveState -> d
+    int __queueHead -> e
+    int __queueTail -> f
+    int __bytesAvailable -> g
+    int[] __queue -> h
+    org.apache.commons.net.telnet.TelnetClient __client -> i
+    java.lang.Thread __thread -> j
+    java.io.IOException __ioException -> k
+    int[] __suboption -> l
+    int __suboption_count -> m
+    boolean __threaded -> n
+    void _start() -> a
+    int __read() -> b
+    void __processChar(int) -> a
+    int read() -> read
+    int read(byte[]) -> read
+    int read(byte[],int,int) -> read
+    boolean markSupported() -> markSupported
+    int available() -> available
+    void close() -> close
+    void run() -> run
+org.apache.commons.net.telnet.TelnetNotificationHandler -> a.a.a.a.b.d:
+org.apache.commons.net.telnet.TelnetOption -> a.a.a.a.b.e:
+    int BINARY -> a
+    int ECHO -> b
+    int EXTENDED_OPTIONS_LIST -> c
+org.apache.commons.net.telnet.TelnetOptionHandler -> a.a.a.a.b.f:
+    int[] answerSubnegotiation$1c97353c() -> a
+    int[] startSubnegotiationLocal() -> b
+    int[] startSubnegotiationRemote() -> c
+org.apache.commons.net.telnet.TelnetOutputStream -> a.a.a.a.b.g:
+    org.apache.commons.net.telnet.TelnetClient __client -> a
+    boolean __convertCRtoCRLF -> b
+    boolean __lastWasCR -> c
+    void write(int) -> write
+    void write(byte[]) -> write
+    void write(byte[],int,int) -> write
+    void flush() -> flush
+    void close() -> close
